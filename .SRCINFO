@@ -1,0 +1,20 @@
+pkgbase = chromium-extension-libredirect
+	pkgdesc = Chromium Libredirect extension
+	pkgver = 2.8.0
+	pkgrel = 1
+	url = https://github.com/libredirect/browser_extension
+	arch = any
+	license = gpl-3.0
+	makedepends = jq
+	makedepends = chromium
+	makedepends = web-ext
+	makedepends = openssl
+	makedepends = npm
+	makedepends = sed
+	provides = chromium-extension-libredirect
+	source = chromium-extension-libredirect-2.8.0.zip::https://github.com/libredirect/browser_extension/archive/refs/tags/v2.8.0.zip
+	source = template.json
+	sha256sums = 4072dd8ebc1a9459851f09e97b8fdda063a9e293b3c037f5385495b2d975ee1b
+	sha256sums = d3f71f6947174155f9ed31948227009f9a8a7e8c415cf1e56200a4399ad51c67
+
+pkgname = chromium-extension-libredirect
